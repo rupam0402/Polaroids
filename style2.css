@@ -1,0 +1,160 @@
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: #45aaf1;
+    margin: 0;
+    padding: 0;
+}
+
+.sidea{
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: white;
+    margin: 0 0 0 14%;
+    margin-top: 8%;
+    border-radius: 20px 0 0 20px;
+    
+    
+}
+.sidea img{
+    width: 80%;
+    height: 70%;
+    margin: 0px 0px 0px 25px;
+}
+.title{
+    margin: 0;
+    padding: 0;
+}
+.title h1{
+    font-size: 40px;
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    color: #000;
+}
+.title .para{
+    padding-left: 30px;
+    padding-bottom: 25px;
+    color: #000;
+    margin: 1px;
+}
+
+
+.sideb{
+    width: 25%;
+    height: 500px;
+    float: left;
+    background-color: #f14552;
+    margin-top: 8%;
+    border-radius: 0 20px 20px 0;
+    
+
+}
+
+
+.title2{
+    margin: 0;
+    padding: 0;
+}
+.title2 h1{
+    font-size: 40px;
+    padding-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.title2 .para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    color: #fff;
+    margin: 20px;
+}
+
+
+
+
+
+.footer{
+    clear: both;
+    width: 100%;
+    height: 250px;
+    background-color: aquamarine;
+    left: 0;
+}
+
+.form{
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: -20px;
+}
+
+.form input{
+    width: 80%;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    margin: 0;   
+    
+    
+}
+.link a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+    margin-left: 10%;
+    
+}
+.form{
+    color: #fff;
+}
+.form .ch_img{
+    font-size: 20px;
+    width: 300px;
+    border: none;
+    margin:  15px 0 10px 0;
+    
+}
+
+.form .btnn{
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    color: blue;
+    margin: 20px 0 0 0;
+    width: 60px;
+    font-size: 15px;
+    
+}
+
+
+input::file-selector-button {
+    background-image: linear-gradient(
+      to right,
+      #45aaf1,
+      #45aaf1,
+      #45aaf1 100%,
+      #45aaf1 200%
+    );
+    
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+    text-shadow: 0 1px 1px #333;
+    transition: all 0.25s;
+}
+.form input:focus{
+    outline: none;
+
+}
